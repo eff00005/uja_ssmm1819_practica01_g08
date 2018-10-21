@@ -26,6 +26,9 @@
         android:ems="10"
         android:hint="@string/login_hint_user"
         android:inputType="text" />
+
+
+
     <TextView
         android:id="@+id/fragment_auth_label_pass"
         android:layout_width="wrap_content"
@@ -34,6 +37,7 @@
         android:layout_below="@+id/fragment_auth_label_user"
         android:text="@string/login_pass"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
     <EditText
         android:id="@+id/fragment_auth_edit_pass"
         android:layout_width="wrap_content"
@@ -51,6 +55,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/main_padding"
         android:text="@string/fragment_button_connect" />
+
     <TextView
         android:id="@+id/fragment_auth_label_ip"
         android:layout_width="wrap_content"
@@ -59,6 +64,7 @@
         android:layout_below="@+id/fragment_auth_label_pass"
         android:text="@string/login_ip"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
     <EditText
         android:id="@+id/fragment_auth_edit_ip"
         android:layout_width="wrap_content"
@@ -68,6 +74,7 @@
         android:ems="10"
         android:hint="@string/login_hint_ip"
         android:inputType="text|textPersonName" />
+
     <TextView
         android:id="@+id/fragment_auth_label_port"
         android:layout_width="wrap_content"
@@ -76,6 +83,7 @@
         android:layout_below="@+id/fragment_auth_label_ip"
         android:text="@string/lagin_port"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
     <EditText
         android:id="@+id/fragment_auth_edit_port"
         android:layout_width="wrap_content"
